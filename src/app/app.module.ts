@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { MediosPagoComponent } from './medios-pago/medios-pago.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MediosPagoComponent } from './medios-pago/medios-pago.component';
     HeaderComponent,
     SidebarComponent,
     FooterComponent,
-    MediosPagoComponent
+    MediosPagoComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
