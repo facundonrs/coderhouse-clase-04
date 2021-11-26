@@ -1,0 +1,17 @@
+.contacto{
+    padding: 50px 0px;
+    background-image: url('/assets/imagenes/fondo.webp');
+    background-size: cover;
+}
+.form-contacto{
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 100px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.form-contacto label{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    z-index: 100;
+}

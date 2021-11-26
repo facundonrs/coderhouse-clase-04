@@ -1,7 +1,9 @@
+<div class="contenedor">
+
 <div class="container pt-3">
 	<div class="row row-cols-1 row-cols-md-3 g-1">
         
-        <div class="col" *ngFor="let evento of eventos">
+        <div class="col mb-5" *ngFor="let evento of eventos">
             <div class="card g-1" style="width: 18rem;" > 
                 <img src="./assets/imagenes/{{evento.img}}" class="card-img-top" alt="auto">
                 <div class="card-body">
@@ -20,3 +22,5 @@
 <app-contacto></app-contacto>
 
 <app-footer></app-footer>
+
+</div>

@@ -1,0 +1,9 @@
+.navbar-custom{
+    background-color: rgb(20, 20, 20);
+}
+.navbar-custom .nav-item a{
+    color: rgb(255, 170, 43);
+}
+.navbar-custom .navbar-brand{
+    color: rgb(255, 170, 43);
+}
